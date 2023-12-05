@@ -78,8 +78,9 @@
                 </div>
                 <div class="col">
                     <h2 class="mb-5" data-translate="about-header"></h2>
-                    <p class="p-about" data-translate="about-text"></p>
-                    <a href="./downloads/Regulamin_konkursu.pdf" download><h3 data-translate="regulamin-link"></h3></a></br>
+                    <p class="p-about" data-translate="about-text"></p></br>
+                    <a href="./downloads/Regulamin_konkursu.pdf" download><h3 data-translate="regulamin-link-pl"></h3></a></br>
+                    <a href="./downloads/Regulamin_konkursu.pdf" download><h3 data-translate="regulamin-link-en"></h3></a>
                     <div class="row">
                         <div class="col text-center">
                             <i class="fa-solid fa-location-dot fa-xl" style="color: #fcd7b6;"></i></br>
@@ -93,46 +94,10 @@
 
     <section id="form">
         <div class="container-fluid contact-container">
-            <div class="container form-container">
-                <div class="row">
-                    <div class="col">
-                        <form  method="post" action="">
-                            <h2 class="mb-4" data-translate="submit-photo"></h2>
-                            <div class="form-group mb-4 mt-4">
-                                <input type="text" class="form-control form-control-lg shadow" name="imie" id="imie" placeholder="Imię/ Name" required>
-                            </div>
-                
-                            <div class="form-group mb-4">
-                                <input type="text" class="form-control form-control-lg shadow" name="nazwisko" id="nazwisko" placeholder="Nazwisko/ Second name" required>
-                            </div>
-                            
-                            <div class="form-group mb-4">
-                                <input type="email" class="form-control form-control-lg shadow" name="email" id="email" placeholder="E-mail" required>
-                            </div>
-
-                            <div class="form-group mb-4">
-                                <select class="form-select form-select-lg" aria-label="Default select example" name="wydzial" id="wydzial">
-                                    <option selected disabled>Wydział/ Faculty</option>
-                                    <option value="1" data-translate="WNSiP"></option>
-                                    <option value="2" data-translate="WH"></option>
-                                    <option value="3" data-translate="WNS"></option>
-                                    <option value="4" data-translate="WEFiZ"></option>
-                                    <option value="5" data-translate="WKFiZ"></option>
-                                    <option value="6" data-translate="WPiA"></option>
-                                    <option value="7" data-translate="WT"></option>
-                                  </select>
-                            </div>
-
-                            <div class="form-group">
-                                <input type="file" class="form-control form-control-lg" name="photo-upload" id="photo-upload" required>
-                            </div>
-
-                            <div class="form mt-4" id="btn-div">
-                                <button type="submit" class="btn btn-lg" id="submit-btn" data-translate="submit-entry">Wyślij zgłoszenie</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+            <div class="container form-container mt-5">
+                <h2 class="" data-translate="how-to-submit"></h2>
+                <p class="p-about" data-translate="entry-text"></p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfxjNivzskocNUVf0hpzHYd4APgjX8SIZZov64vmZpMQ3VuvA/viewform" target="_blank"><h3 id="form-link" data-translate="form-link">FORMULARZ ZGŁOSZENIOWY</h3></a>
             </div>
         </div>
     </section>
@@ -143,7 +108,7 @@
           <li class="nav-item"><a href="" class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
         </ul>
         <p class="text-center text-muted">© Bieskiewicz Łukasz</p>
-      </footer>
+    </footer>
 
     <script src="scripts/smoothscrolling.js"></script>
 </body>
