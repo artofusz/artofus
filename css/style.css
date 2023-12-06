@@ -93,6 +93,18 @@ h3{
     font-weight: 500;
 }
 
+#btn-form{
+    background-color: rgb(163,187,200);
+}
+
+#btn-a{
+    text-decoration: none;
+}
+
+#btn-txt{
+    color: #FCD7B6;
+}
+
 .inner-header {
     height: 65vh;
     width: 100%;
@@ -229,12 +241,6 @@ transform: translate3d(-90px,0,0);
 img{
     max-width: 100%;
     height: auto;
-}
-
-.contact-container{
-    padding-top: 110px;
-    padding-bottom: 100px;
-    background: linear-gradient(180deg, rgb(36, 64, 78), rgb(163,187,200));
 }
 
 .fade-in-slide {
